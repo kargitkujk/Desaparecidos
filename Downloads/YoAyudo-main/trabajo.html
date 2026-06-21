@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajá con nosotros</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body id="Sube">
+<header>
+    <h1>Trabajá con nosotros</h1>
+     <button type="button" id="btnMenu" class="btnMenu" aria-label="Abrir menú">
+                ☰
+            </button>
+    
+    <nav class="NavegaMenu">
+    <ul class="menu" id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="incidencia.html">Incidencia</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="trabajo.html">Trabajo</a></li>
+    </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Requisitos</h2>
+    <ul>
+        <li>-> Mayor de edad</li>   
+        <li>-> Buena condición física</li>
+        <li>-> Responsabilidad</li>
+    </ul>
+</section>
+
+<section>
+    
+    <h2>Postulación</h2>
+   
+        <div>
+       
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Ej: nombre@email.com" required autocomplete="email"><br>
+
+        <label for="sobreVos">Contanos sobre vos:</label>
+        <textarea id="sobreVos" placeholder="Experiencia, habilidades, etc..." required autocomplete="off"></textarea><br>
+
+        <label for="archivo">Adjuntar archivo (PDF):</label>
+        <input type="file" id="archivo" accept=".pdf" required><br>
+
+        <label>
+            <input type="checkbox" id="aceptacion" required>
+            Acepto ser contactado por la empresa</label><br>
+        
+        </div>
+        <label for="solicitud">Solicitud:</label>
+        <input type="hidden" id="solicitud" placeholder="" value="Solicitud de Trabajo"></br>
+        <button type="submit">Enviar CV</button>
+        <a href="index.html" class="btn">Volver al inicio</a>
+        <a href="#Sube" class="Sube">↑ Subir</a>
+
+</section>
+
+<footer>
+    © 2026 YoAyudo - Plataforma de Gestión y Seguimiento de Solicitudes e Incidencias
+</footer>
+<script src="JS/administrador.js"></script>
+</body>
+</html>
